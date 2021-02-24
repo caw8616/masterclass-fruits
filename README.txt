@@ -16,3 +16,5 @@
 1.  Group Box View in SwiftUI 2.0
 1.  Disclosure View in SwiftUI 2.0
 1.  Displaying views dynamically in a List View  with a loop
+
+*Part of the tutorials offered on the udemy course "The Complete iOS 14 App Development Course with SwiftUI 2 From Beginner to Advanced App Developer with Xcode and Swift 5" by Robert Petras*
