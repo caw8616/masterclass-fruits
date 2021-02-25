@@ -10,14 +10,17 @@ import SwiftUI
 struct CoverImageView: View {
     // MARK: - PROPERTIES
     
+    let coverImages: [CoverImage] = Bundle.main.decode("covers.json")
+    
     // MARK: - BODY
     
     var body: some View {
         TabView {
-        
-            Image("cover-lion")
-                .resizable()
-                .scaledToFit()
+            ForEach(coverImages) { item in
+                Image(item.name)
+                    .resizable()
+                    .scaledToFill()
+            } //: LOOP
         } //: TAB
         .tabViewStyle(PageTabViewStyle())
     }
@@ -32,8 +35,4 @@ struct CoverImageView_Previews: PreviewProvider {
     }
 }
 
-// MARK: - PROPERTIES
 
-// MARK: - BODY
-
-// MARK: - PREVIEW
