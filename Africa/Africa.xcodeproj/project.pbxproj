@@ -34,6 +34,7 @@
 		C1A67EDA25E82FD300917D8F /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A67ED925E82FD300917D8F /* CodableBundleExtension.swift */; };
 		C1A67EDE25E8344E00917D8F /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A67EDD25E8344E00917D8F /* AnimalListItemView.swift */; };
 		C1A67EE125E835D800917D8F /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A67EE025E835D800917D8F /* AnimalModel.swift */; };
+		C1A67EE425E8385F00917D8F /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A67EE325E8385F00917D8F /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		C1A67ED925E82FD300917D8F /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		C1A67EDD25E8344E00917D8F /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		C1A67EE025E835D800917D8F /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		C1A67EE325E8385F00917D8F /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			children = (
 				C1A67ECF25E8258200917D8F /* CoverImageView.swift */,
 				C1A67EDD25E8344E00917D8F /* AnimalListItemView.swift */,
+				C1A67EE325E8385F00917D8F /* AnimalDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				C12223AC25E817F3006BBF2D /* MainView.swift in Sources */,
 				C1A67ED025E8258200917D8F /* CoverImageView.swift in Sources */,
 				C1A67ED525E82E3C00917D8F /* CoverImageModel.swift in Sources */,
+				C1A67EE425E8385F00917D8F /* AnimalDetailView.swift in Sources */,
 				C1A67EE125E835D800917D8F /* AnimalModel.swift in Sources */,
 				C12223A625E817B6006BBF2D /* MapView.swift in Sources */,
 				C122237125E81331006BBF2D /* AfricaApp.swift in Sources */,
